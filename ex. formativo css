@@ -1,0 +1,36 @@
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+header {
+background-color:#880000; 
+height: 50px;
+text-align: center;
+color: white;
+line-height: 50px; 
+}
+.container {
+display: flex;
+flex: 1;
+background-color: #F5F5DC; 
+}
+sidebar {
+width: 20%;
+background-color: #66CDAA; 
+padding: 10px;
+}
+main {
+flex: 1;
+background-color: #F5F5DC; 
+padding: 10px;
+}
+footer {
+background-color: #000000; 
+height: 30px;
+text-align: center;
+color: white;
+line-height: 30px; 
+}
